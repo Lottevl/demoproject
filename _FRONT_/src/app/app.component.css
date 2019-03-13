@@ -1,0 +1,90 @@
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+
+body{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.container{
+	background-color: black;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.containbody{
+	
+}
+
+h1{
+	background-color: skyblue;
+	border: 1px solid white;
+	color: white;
+	padding: .3em;
+	text-align: center;
+}
+
+.body{
+	display: flex;
+}
+
+aside{
+	background-color: gray;
+	width: 20%;
+	color: white;
+	padding: 0;
+}
+
+aside ul li{
+	margin-top: 1em;
+	list-style: none;
+}
+
+aside a{
+	text-decoration: none;
+	color: white;
+}
+
+aside p{
+	margin-top: 20em;
+	background-color: black;
+	padding: 1em;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+aside i{
+	margin-right: 4px;
+}
+
+.page{
+	background-color: dimgray;
+	width: 80%;
+}
+
+.page div button{
+	margin: 1em;
+	width: 14em;
+	height: 4em;
+	color: white;
+	border: none;
+}
+
+.green button{
+	background-color: limegreen;
+}
+
+.red button{
+	background-color: red;
+}
+
+.fullwidth button{
+	width: 30em !important;
+}
+
+.page button:hover{
+	background-color: red;
+}
+
+
+
